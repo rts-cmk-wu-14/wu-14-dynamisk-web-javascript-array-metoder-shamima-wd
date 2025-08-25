@@ -55,11 +55,29 @@ document.addEventListener("DOMContentLoaded", function () {
   // Check om der i dogsArray er en hund som hedder "Trixie".
   // Udskriv "true" eller "false" i konsollen afhængig af svaret.
   // console.log("Opgave 3a", ...)
+  const dog = ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
+
+  const hasTrixie = dogsArray.includes("Trixie");
+
+  console.log(hasTrixie);
 
   // Opgave 3b
   // Check om der i dogsArray er en hund som hedder "Baxter".
   // Udskriv "true" eller "false" i konsollen afhængig af svaret.
   // console.log("Opgave 3b", ...)
+  const dogs = [
+    "Barney",
+    "Molly",
+    "Baxter",
+    "Polly",
+    "Buddy",
+    "Suki",
+    "Watson",
+  ];
+
+  const hasBaxter = dogsArray.some((dog) => dog === "Baxter");
+
+  console.log(hasBaxter);
 
   //     Opgave 4a
   // Check om der i catsArray er en kat som hedder "Bagheera".
