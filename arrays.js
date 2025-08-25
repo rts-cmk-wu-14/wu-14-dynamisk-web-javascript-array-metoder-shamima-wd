@@ -50,12 +50,10 @@ document.addEventListener("DOMContentLoaded", function () {
   catsArray.push("Sniffles");
 
   console.log(catsArray);
-
   // Opgave 3a
   // Check om der i dogsArray er en hund som hedder "Trixie".
   // Udskriv "true" eller "false" i konsollen afhængig af svaret.
   // console.log("Opgave 3a", ...)
-  const dog = ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
 
   const hasTrixie = dogsArray.includes("Trixie");
 
@@ -65,15 +63,6 @@ document.addEventListener("DOMContentLoaded", function () {
   // Check om der i dogsArray er en hund som hedder "Baxter".
   // Udskriv "true" eller "false" i konsollen afhængig af svaret.
   // console.log("Opgave 3b", ...)
-  const dogs = [
-    "Barney",
-    "Molly",
-    "Baxter",
-    "Polly",
-    "Buddy",
-    "Suki",
-    "Watson",
-  ];
 
   const hasBaxter = dogsArray.some((dog) => dog === "Baxter");
 
