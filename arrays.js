@@ -36,16 +36,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Tilføj katten "Sniffles" til catsArray.
   // Udskriv arrayet i konsollen.
   // console.log("Opgave 2", ...)
-  let cats = [
-    "Ollie",
-    "Sophie",
-    "Salem",
-    "Tiger",
-    "Binx",
-    "Pumpkin",
-    "Penny",
-    "Lenny",
-  ];
+
   //
   catsArray.push("Sniffles");
 
@@ -73,10 +64,16 @@ document.addEventListener("DOMContentLoaded", function () {
   // Udskriv katten i konsollen hvis den findes og ellers "undefined".
   // console.log("Opgave 4a", ...)
 
+  const bagheera = catsArray.find((cat) => cat.name === "Bagheera");
+  console.log(bagheera);
+
   // Opgave 4b
   // Check om der i catsArray er en kat som hedder "Salem".
   // Udskriv katten i konsollen hvis den findes og ellers "undefined".
   // console.log("Opgave 4b", ...)
+  const foundCat = catsArray.find((cat) => cat.name === "Salem");
+
+  console.log(foundCat);
 
   //     Opgave 5
   // Med udgangspunkt i numbersArray, skal du oprette et nyt array, som indeholder alle tallene i arrayet ganget med 3.
