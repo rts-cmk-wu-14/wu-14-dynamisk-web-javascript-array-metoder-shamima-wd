@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "Penny",
     "Lenny",
   ];
-
+  //
   catsArray.push("Sniffles");
 
   console.log(catsArray);
