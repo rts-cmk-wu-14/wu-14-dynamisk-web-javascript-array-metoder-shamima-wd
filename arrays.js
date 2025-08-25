@@ -36,6 +36,11 @@ document.addEventListener("DOMContentLoaded", function () {
   // Tilføj katten "Sniffles" til catsArray.
   // Udskriv arrayet i konsollen.
   // console.log("Opgave 2", ...)
+  const Array =
+    ("Ollie", "Sophie", "Salem", "Tiger", "Binx", "Pumpkin", "Penny", "Lenny");
+
+  Array.push(Sniffles);
+  console.log(myArray);
 
   // Opgave 3a
   // Check om der i dogsArray er en hund som hedder "Trixie".
