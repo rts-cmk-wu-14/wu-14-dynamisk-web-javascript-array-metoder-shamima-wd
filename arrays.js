@@ -80,6 +80,9 @@ document.addEventListener("DOMContentLoaded", function () {
   // Udskriv det nye array i konsollen:
   // console.log("Opgave 5", ...)
 
+  const multipliedArray = numbersArray.map((num) => num * 3);
+  console.log(multipliedArray);
+
   //     Opgave 6
   // Udskriv alle hundene i dogsArray i én lang streng.
   // (Sådan her: BarneyMollyBaxter...)
