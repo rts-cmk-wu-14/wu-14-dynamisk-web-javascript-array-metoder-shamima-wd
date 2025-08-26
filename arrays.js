@@ -109,8 +109,8 @@ document.addEventListener("DOMContentLoaded", function () {
   //  ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
 }); // ends DOMContentLoaded
 
-const pollyIndex = dogsArray.indexOf("Polly");
-if (pollyIndex !== -1) {
-  dogsArray.splice(pollyIndex, 1);
-}
-console.log("Opgave 8", dogsArray);
+// const pollyIndex = dogsArray.indexOf("Polly");
+// if (pollyIndex !== -1) {
+//   dogsArray.splice(pollyIndex, 1);
+// }
+// console.log("Opgave 8", dogsArray);
