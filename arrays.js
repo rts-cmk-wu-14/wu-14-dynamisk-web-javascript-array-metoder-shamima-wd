@@ -108,3 +108,9 @@ document.addEventListener("DOMContentLoaded", function () {
   // Fjern hunden "Polly" fra dogsArray og udskriv det nye array i konsollen
   //  ["Barney", "Molly", "Baxter", "Polly", "Buddy", "Suki", "Watson"];
 }); // ends DOMContentLoaded
+
+const pollyIndex = dogsArray.indexOf("Polly");
+if (pollyIndex !== -1) {
+  dogsArray.splice(pollyIndex, 1);
+}
+console.log("Opgave 8", dogsArray);
